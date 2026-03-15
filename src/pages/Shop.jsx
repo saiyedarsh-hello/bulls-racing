@@ -1,4 +1,12 @@
 import React, { useRef } from 'react'
+import img1 from '../assets/New-Era-9Seventy-Max-Verstappen-Replica-Cap.avif'
+import img2 from '../assets/New-Era-9Forty-Replica-Women-s-Open-Back-Cap.avif'
+import img3 from '../assets/New-Era-9Seventy-Isack-Hadjar-Replica-Cap.avif'
+import img4 from '../assets/New-Era-Max-Verstappen-Replica-Beanie.avif'
+import img5 from '../assets/Replica-T-Shirt.avif'
+import img6 from '../assets/Replica-T-Shirt girl.avif'
+import img7 from '../assets/Replica-Polo girl.avif'
+import img8 from '../assets/Replica-Zip-Hoodie.avif'
 
 
 const Shop = () => {
@@ -15,14 +23,14 @@ const Shop = () => {
     };
 
     const products = [
-        {id:1 , name:"New Era 9Seventy Max Replica Cap" , price:"€47.95" , image:"src\\assets\\New-Era-9Seventy-Max-Verstappen-Replica-Cap.avif"},
-        {id:2 , name:"New Era 9Forty Replica Open Back Cap" , price:"€46.95" , image:"src\\assets\\New-Era-9Forty-Replica-Women-s-Open-Back-Cap.avif"},
-        {id:3 , name:"New Era 9Seventy Isack Replica Cap" , price:"€47.95" , image:"src\\assets\\New-Era-9Seventy-Isack-Hadjar-Replica-Cap.avif"},
-        {id:4 , name:"New Era Max Verstappen Replica Beanie RACING", price:"€36.95",image:"src\\assets\\New-Era-Max-Verstappen-Replica-Beanie.avif"},
-        {id:5 , name:"Replica T-shirt" , price:"€77.95" , image:"src\\assets\\Replica-T-Shirt.avif"},
-        {id:6 , name:"Replica T-shirt" , price:"€77.95" , image:"src\\assets\\Replica-T-Shirt girl.avif"},
-        {id:7 , name:"Replica Polo" , price:"€93.95" , image:"src\\assets\\Replica-Polo girl.avif"},
-        {id:8 , name:"Replica zip Hoddie" , price:"€104.95" , image:"src\\assets\\Replica-Zip-Hoodie.avif"}
+        {id:1 , name:"New Era 9Seventy Max Replica Cap" , price:"€47.95" , image: img1},
+        {id:2 , name:"New Era 9Forty Replica Open Back Cap" , price:"€46.95" , image: img2},
+        {id:3 , name:"New Era 9Seventy Isack Replica Cap" , price:"€47.95" , image: img3},
+        {id:4 , name:"New Era Max Verstappen Replica Beanie RACING", price:"€36.95", image: img4},
+        {id:5 , name:"Replica T-shirt" , price:"€77.95" , image: img5},
+        {id:6 , name:"Replica T-shirt" , price:"€77.95" , image: img6},
+        {id:7 , name:"Replica Polo" , price:"€93.95" , image: img7},
+        {id:8 , name:"Replica zip Hoddie" , price:"€104.95" , image: img8}
     ]
 
   return (
