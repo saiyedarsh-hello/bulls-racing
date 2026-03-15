@@ -40,7 +40,7 @@ const Shop = () => {
         <i onClick={() => scroll('left')} className="ri-arrow-left-line text-white text-2xl bg-[#253f56] p-2 px-3 rounded-full cursor-pointer hover:bg-[#355f86] transition"></i>
         <i onClick={() => scroll('right')} className="ri-arrow-right-line text-white text-2xl bg-[#253f56] p-2 px-3 rounded-full cursor-pointer hover:bg-[#355f86] transition"></i>
       </div>
-      <div ref={scrollRef} style={{ scrollbarWidth: 'none' }} className='h-100 md:h-120 m-5 md:ml-20 flex items-center overflow-x-auto [&::-webkit-scrollbar]:hidden snap-x snap-mandatory'>
+      <div ref={scrollRef} style={{ scrollbarWidth: 'none' }} className='h-100 md:h-120 m-5 md:ml-20 flex items-center overflow-x-auto overflow-y-hidden [&::-webkit-scrollbar]:hidden snap-x snap-mandatory'>
           {products.map((item) => (
             <div key={item.id} className='relative h-full shrink-0 w-68 md:h-110 md:w-80 m-3 rounded-[20px] overflow-hidden snap-center group'>
               <img src={item.image} alt={item.name} className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 brightness-95' />
